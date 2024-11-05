@@ -1,0 +1,148 @@
+$grey: #6b6b6c;
+$qora: #363738;
+$color: #ffffff;
+$back-color: #0b7572;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.conatiner {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+// WRAP 1
+.container_header {
+  padding-bottom: 67px;
+  padding-top: 50px;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.wrap1 h1 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-family: Exo 2;
+  font-size: 52px;
+  line-height: 65px;
+  margin-bottom: 40px;
+  color: var($qora);
+}
+.wrap1 p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var($grey);
+  margin-bottom: 40px;
+}
+.wrap1 span {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  color: var($qora);
+  border-bottom: 3px solid #ffce50;
+}
+.img1 {
+  width: 635px;
+}
+// WRAP 2
+
+.middle_container {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px 0px #00000026;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: 0 auto;
+  margin-bottom: 67px;
+}
+.wrapper {
+  padding: 40px 80px;
+}
+.wrap2 h3 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  width: 230px;
+  margin-bottom: 16px;
+}
+.wrap2 p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 225px;
+}
+.img2 {
+  margin-bottom: 24px;
+}
+
+// WRAP 3
+
+.lower_container {
+  padding-bottom: 67px;
+  margin: 0 auto;
+  max-width: 1240px;
+}
+.wrap3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 769px;
+  height: 453px;
+  background-color: $back-color;
+  clip-path: polygon(0 0, 60% 0, 100% 100%, 0 100%);
+}
+.lower_container {
+  background-image: url(../images/tuck1.png);
+  background-repeat: no-repeat;
+  max-width: 1240px;
+}
+.wrap3 h3 {
+  width: 362px;
+  font-family: "Exo 2", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: $color;
+  margin-left: 90px;
+}
+
+// WRAP 4
+
+.lower_container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1240px;
+  margin: 0 auto;
+  gap: 60px;
+}
+.wrap4 {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.wrap5 h4 {
+  width: 327px;
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.wrap5 p {
+  width: 291px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+// MEDIA 
